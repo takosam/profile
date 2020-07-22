@@ -1,0 +1,161 @@
+/* Colors and fonts */
+body {
+    background: #363534;
+    color: #0afbd9;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'montserrat', sans-serif;
+}
+h1 {
+  color: #0afbd9;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #0afbd9;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'montserrat', sans-serif;
+  text-decoration: none;
+  color: #E353C4;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: #E353C4 transition: 1s;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.profile_neon {
+  background-color: #141117;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img_round {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 70%;
+}
+
+.card_baking {
+  background-color: #37C0BB;
+  color: #141117;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card_future {
+  background-color: #141117;
+  color: #E353C4;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card_lofi {
+  background-color: #E353C4;
+  color: #37C0BB;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.btn_pink{
+  background-color: #E353C4;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #37C0BB;
+}
+.btn_pink:hover {
+  background-color: #37C0BB;
+  color: #363534;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+  text-align: center;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+  text-align: center;
+}
+.list-inline i:hover {
+  color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#363534
+#37C0BB
+#f2f4f6
+#141117
+#E353C4
+
